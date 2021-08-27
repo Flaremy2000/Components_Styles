@@ -29,6 +29,12 @@
     border: none;
     border-radius: 9%;
 }
+.bgr{
+    background-color: #1BFF00;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9%;
+}
 .by:active{
     background-color: #FDFB68;
 }
@@ -38,14 +44,24 @@
 .bb:active{
     background-color: #5B6BFE;
 }
+.bgr:active{
+    background-color: #88FF7A;
+}
+
 /* Tamaños de Elementos*/
 .l {
-    
+    width: 8%;
+    padding: 0.2%;
 }
 .md{
     width: 12%;
     padding: 0.5%;
 }
 .bg{
-
+    width: 17%;
+    padding: 1%;
+}
+.ebg {
+    width: 22%;
+    padding: 5%;
 }
