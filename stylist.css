@@ -1,0 +1,51 @@
+/* Control de colores y letras*/
+
+/*Colores generales*/
+.y {
+    background-color: #FFFB00;
+}
+.r {
+    background-color: #FF0000;
+}
+.b{
+    background-color: #0019FF;
+}
+
+/* Colores para botones*/
+.by{
+    background-color: #FFFB00;
+    border: none;
+    border-radius: 9%;
+}
+.br{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9%;
+}
+.bb{
+    background-color: #0019FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9%;
+}
+.by:active{
+    background-color: #FDFB68;
+}
+.br:active{
+    background-color: #FF5454;
+}
+.bb:active{
+    background-color: #5B6BFE;
+}
+/* Tamaños de Elementos*/
+.l {
+    
+}
+.md{
+    width: 12%;
+    padding: 0.5%;
+}
+.bg{
+
+}
