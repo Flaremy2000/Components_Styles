@@ -1,67 +1,76 @@
+/* Bases */
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+body{
+    background-color: #FFFAFA;
+}
 /* Control de colores y letras*/
-
-/*Colores generales*/
 .y {
-    background-color: #FFFB00;
+    background-color: #FFFF00;
+    border-color: #FFFFE0;
 }
 .r {
-    background-color: #FF0000;
+    background-color: #e50914;
+    border-color: #CD5C5C;
+    color: #FFFAFA;
 }
 .b{
-    background-color: #0019FF;
+    background-color: #0000FF;
+    border-color: #6495ED;
+    color: #FFFFF0;
 }
-
-/* Colores para botones*/
-.by{
-    background-color: #FFFB00;
-    border: none;
-    border-radius: 9%;
+.g {
+    background-color: #32CD32;
+    border-color: #00FF00;
 }
-.br{
-    background-color: #FF0000;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 9%;
+.pk{
+    background-color: #FF69B4;
+    border-color: #FFB6C1;
 }
-.bb{
-    background-color: #0019FF;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 9%;
+.or{
+    background-color: #FF7F50;
+    border-color: #FFA07A;
+    color: #FFFAFA;
 }
-.bgr{
-    background-color: #1BFF00;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 9%;
+/* Estilos para botones*/
+.btn{
+    text-align: center;
+    display: block;
+    border-radius: 30%;
+    border: 1% solid;
+    border–top: 4px solid ;
+    border–right: 4px solid ;
+    border–bottom: 1px solid ;
+    border–left: 1px solid ;
+    margin: 1% 0.3% 1% 1%; 
 }
-.by:active{
-    background-color: #FDFB68;
+.btn:active{
+    box-shadow: 3px 3px #A9A9A9;
 }
-.br:active{
-    background-color: #FF5454;
-}
-.bb:active{
-    background-color: #5B6BFE;
-}
-.bgr:active{
-    background-color: #88FF7A;
-}
-
 /* Tamaños de Elementos*/
 .l {
-    width: 8%;
+    text-align: center;
+    width: 75px;
+    height: 50px;
     padding: 0.2%;
 }
 .md{
-    width: 12%;
+    text-align: center;
+    width: 105px;
+    height: 80px;
     padding: 0.5%;
 }
 .bg{
-    width: 17%;
+    text-align: center;
+    width: 125px;
+    height: 100px;
     padding: 1%;
 }
 .ebg {
-    width: 22%;
+    text-align: center;
+    width: 145px;
+    height: 120px;
     padding: 5%;
 }
